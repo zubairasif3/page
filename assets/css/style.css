@@ -196,4 +196,32 @@ body {
     .icon-flex .flex-col {
         width: calc(50% - 40px);
     }
+    .logo-img {
+        margin-bottom: 0px;
+    }
+    .header,
+    .hero-section .text {
+        display: none;
+    }
+    .hero-section .heading{
+        text-align: left;
+        font-size: 20px;
+        padding: 0px 10px 20px;
+    }
+    .text {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }    
+    .text-content .btn-main, 
+    .text-main {
+        margin-top: 20px;
+    }
+    .footer-section .footer-link {
+        line-height: 1;
+    }
+    .footer-section a{
+        font-size: 13px;
+        line-height: 1;
+        margin-right: 0px;
+    }
 }
